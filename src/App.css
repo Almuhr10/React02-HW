@@ -36,3 +36,60 @@
     transform: rotate(360deg);
   }
 }
+
+.text-center {
+  /* text-align: center; */
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  padding-top: 200px;
+}
+
+.login-form {
+  max-width: 635px;
+  margin: 0 auto 20px;
+  border-radius: 4px;
+  background-color: #fff;
+  padding: 40px;
+  box-sizing: border-box;
+  font-size: 25px;
+  padding-bottom: 100px;
+}
+
+#root {
+  height: 100vh;
+  background-size: cover;
+  padding-top: 100px;
+  background-image: url(https://images.pexels.com/photos/94273/jetty-beach-sunset-sea-94273.jpeg);
+}
+
+.success {
+  color: green;
+  font-weight: bold;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+input#name,
+input#password {
+  font-size: 25px;
+  height: 40px;
+  width: 342px;
+}
+
+input[type="submit"],
+button {
+  font-size: 20px;
+}
+
+.mystyle {
+  background-color: DodgerBlue;
+  padding: 10px;
+  font-family: "montserrat, sans-serif";
+  width: 150px;
+  color: white;
+}
